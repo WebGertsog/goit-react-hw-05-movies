@@ -1,0 +1,51 @@
+.movies__item {
+  position: relative;
+  width: 300px;
+  border-radius: 5px;
+  /* background-color: #272c30; */
+  background-color: #1b1f22;
+  /* background-color: #080613; */
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.movies__item:hover {
+  transform: scale(1.03);
+  color: gold;
+  cursor: pointer;
+}
+
+.movies__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.movies__link:hover {
+  color: gold;
+}
+
+.movies__img {
+  width: 300px;
+  height: 425px;
+  border-radius: 5px;
+}
+
+.movies__cardThumb {
+  padding: 10px;
+}
+
+.movies__title {
+  text-align: center;
+  font-size: 20px;
+}
+.movies__rating {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  padding: 1px 4px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #ffd700;
+  background-color: #272c30;
+  border-radius: 8px;
+  cursor: default;
+}

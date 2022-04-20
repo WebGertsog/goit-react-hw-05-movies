@@ -1,0 +1,13 @@
+.cast__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cast__img {
+  width: 175px;
+}
+
+.cast__name {
+  color: #fff;
+}
